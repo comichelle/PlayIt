@@ -1,0 +1,23 @@
+@import "./partials/setup";
+@import "./partials/variables";
+@import "./partials/header";
+@import "./partials/events";
+@import "./partials/playlist";
+@import "./partials/footer";
+
+body {
+	background-color: $beige;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+#app {
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: $wrapperWidth;
+	margin: 0 auto;
+}
+

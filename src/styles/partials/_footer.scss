@@ -1,0 +1,26 @@
+
+//**************************
+//         FOOTER
+//**************************
+
+
+.footer {
+	border-top: 1px solid $charcoal;
+	color: $charcoal;
+	font-size: 11px;
+	padding: 2% 0 12% 0;
+	p a:link, a:visited {
+		color: $charcoal;
+	}
+}
+
+
+//**************************
+//     MEDIA QUERIES
+//**************************
+
+@media (max-width: 950px) {
+ .footer {
+	border-top: none;
+	}
+}
